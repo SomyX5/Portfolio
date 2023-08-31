@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: white;
+}
+.form{
+    text-align: center;
+    background-color: black;
+}
+.label{
+    text-align: center;
+    font-size: 2rem;
+}
+.input{
+    text-align: center;
+    font-size: 5rem;
+   
+}
+.register{
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.gender{
+    background-color: black;
+    color:white;
+    font-size: 1.5rem;
+    border-style: none;
+    
+
+}
+input:invalid{
+    border: 1px solid red;
+}
+.button:hover{  
+    transition: 2s;
+    height: 1.8rem;
+    width: 10rem;
+    font-style: italic;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white; 
+}
+
+

@@ -1,0 +1,17 @@
+.me{
+    border: 500px;
+    border-color: blue;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 0.1rem;
+    padding-top: 20px;
+}
+.navbar{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 0.1rem;
+    padding-bottom: 20px;
+}

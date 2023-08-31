@@ -1,0 +1,92 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    padding: 0.5rem;
+    margin: 0px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li{
+    list-style: none;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    font-size: 25px;
+}
+.navbar ul li:hover{
+    list-style: none;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    font-size: 25px;
+    color:aqua;
+}
+.content{
+    display: flex;
+    margin: 4rem 3rem;
+}
+.left{
+    width: 50%;
+    padding: 1rem;
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+}
+.right{
+    width: 50%;
+    padding: 1rem;
+    font-size: 20px;
+    font-style: italic;
+}
+.field{
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.button{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    margin-left: 11.4rem;
+    text-align: center;
+    border-radius: 50px;
+    width: 20%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    padding: 0.5rem;
+    margin: 0px;
+    text-align: center;
+}
+@media screen and (max-width:667px) {
+    body{
+        background-color:yellow;
+    }
+    .content{
+        display: flex;
+        margin: 4rem 3rem;
+        flex-direction: column-reverse;
+    }
+    .left{
+        width: 100%;
+        padding: 1rem;
+        font-size: 20px;
+        font-style: italic;
+        text-align: justify;
+    }
+    .right{
+        width: 100%;
+        padding: 1rem;
+        font-size: 20px;
+        font-style: italic;
+    }
+}
